@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: $color-eerie-black;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
